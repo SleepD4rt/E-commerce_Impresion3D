@@ -9,12 +9,12 @@ import { Link, useNavigate } from "react-router-dom";
 function Navbar() {
   return (
     <NavbarContainer>
-      <Items_NavbarContainer>
+      <Items_NavbarContainer style={{ width: "25%" }}>
         <Link to="/">
           <Img_Item>LOGO</Img_Item>
         </Link>
       </Items_NavbarContainer>
-      <Items_NavbarContainer></Items_NavbarContainer>
+
       <Items_NavbarContainer>
         <Item_Items>
           <Img_Item>CARRITO</Img_Item>

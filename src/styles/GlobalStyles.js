@@ -2,10 +2,14 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
 
+*{
+       /* border: 1px solid red; */
+}
 
  html {
         scroll-behavior: smooth;
         scrollbar-width: none;
+        
  }
 
  body {
@@ -17,7 +21,6 @@ background-color: #efefef;
 font-family: "Montserrat",sans-serif;
 color: white;
 overflow-x:hidden;
-max-height: 100vh;
 
 }
 
@@ -26,7 +29,7 @@ text-decoration: none;
 color: white;
 }
 a:visited {
-color: red;
+color: white;
 }
 li {
 list-style: none;

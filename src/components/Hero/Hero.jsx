@@ -1,10 +1,9 @@
-import { HeroContainer } from "./HeroStyles";
-import Swiper from "../Swiper/Swiper";
+import { SwiperSlider } from "../Swiper/Swiper";
 
 function Hero() {
   return (
     <>
-      <Swiper />
+      <SwiperSlider />
     </>
   );
 }

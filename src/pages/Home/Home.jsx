@@ -19,8 +19,7 @@ function Home() {
     <HomeWrapper>
       {/* Hero Section */}
 
-      <Hero doScroll={doScroll} />
-
+      <Hero />
       {/* Recomendados Section */}
       <RecomendadosWrapper>
         <h2>Hoy te recomendamos</h2>

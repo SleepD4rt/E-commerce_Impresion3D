@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const NavbarContainer = styled.div`
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #222222;
   position: relative;
   display: flex;
@@ -14,6 +14,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const Items_NavbarContainer = styled.div`
+  width: 100%;
   display: flex;
   height: 40px;
   align-items: center;
@@ -24,8 +25,11 @@ export const Items_NavbarContainer = styled.div`
 
 export const Img_Item = styled.div`
   height: auto;
+  padding: 2px;
+  gap: 10px;
 `;
 
 export const Item_Items = styled.div`
-  padding: 5px 10px 10px 10px;
+  gap: 10px;
+  padding: 5px;
 `;
